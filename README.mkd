@@ -1,7 +1,7 @@
-Simple long-polling example
+Simple examples for long-polling and server sent events
 =============================
 
-A simple web polling example based on Flask and Flask-restful on server side and jQuery on client side.
+Simple example for long-polling and server sent events using Flask and Flask-restful on server side and jQuery on client side.
 
 
 Requirements:
@@ -15,6 +15,7 @@ How to try it:
 
 - Clone the repository
 - Execute the server (``python server.py``)
-- Open the url <http://127.0.0.1:5000/>
-- Open the url <http://127.0.0.1:5000/>
-- Change and save``data.txt`` to see how it works
+- For long polling demo open the url <http://127.0.0.1:5000/>
+    - Change and save``data.txt`` to see how it works
+- For server sent events example <http://127.0.0.1:5000/sse>
+    - Observe timestamp values streamed from server
