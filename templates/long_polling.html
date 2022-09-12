@@ -1,10 +1,14 @@
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Polling Example</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="{{ url_for("static", filename="poll.js") }}"></script>
   </head>
   <body>
-    <h1>Changes for file data.txt</h1>
+    <h1>Long Polling Example</h1>
+    <h2>Listening for changes to file data.txt</h2>
     <p id="dateChange"></p>
     <pre id="content"></pre>
   </body>
